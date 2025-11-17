@@ -1,0 +1,15 @@
+numpy
+packaging
+netifaces
+pyyaml
+
+# From environment.yml (pip만 사용하는 버전)
+torch==2.0.0+cu117
+torchvision==0.15.1+cu117
+torchaudio==2.0.1+cu117
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+stable-baselines3==2.0.0
+tensorboard==2.11.0
+tensorboard-plugin-wit==1.8.1
+protobuf==3.20.3

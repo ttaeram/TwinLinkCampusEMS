@@ -1,0 +1,1061 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1" pages="2">
+  <diagram name="페이지-1" id="zRsFmOQc2QwABs-xpy0y">
+    <mxGraphModel dx="2022" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pXGescOABc2VgFkLFoYU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-5" target="pXGescOABc2VgFkLFoYU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-5" value="경진대회 플랫폼 시작&lt;div&gt;(Server side)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-8" target="pXGescOABc2VgFkLFoYU-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="170" as="sourcePoint" />
+            <mxPoint x="720" y="230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-6" value="#3. USD파일 load 하고 배치&#xa;(Robot, Trash)" style="shape=card;strokeWidth=2;rounded=1;arcSize=12;size=20;verticalLabelPosition=middle;verticalAlign=middle;align=center;whiteSpace=wrap;fontColor=default;labelPosition=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-6" target="pXGescOABc2VgFkLFoYU-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-18" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;startFill=0;edgeStyle=entityRelationEdgeStyle;curved=0;" parent="1" source="pXGescOABc2VgFkLFoYU-8" target="Bglu7jyl7y2Gr7B01Ody-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-8" value="#1. 경연 시나리오 데이터 생성 또는 load&lt;div&gt;(경연 대상 지역, 시작 지점, 쓰레기 수/종류/위치,&amp;nbsp;&lt;/div&gt;&lt;div&gt;CCTV 수/위치/자세)&lt;/div&gt;" style="shape=card;html=1;strokeWidth=2;whiteSpace=wrap;rounded=1;arcSize=12;size=20;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-17" target="pXGescOABc2VgFkLFoYU-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-17" value="#3-1 쓰레기, #3-2 로봇, #3-3 카메라를 경연 시나리오 데이터에 따라 Meta-sejong 공간에 배치" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="440" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-41" target="pXGescOABc2VgFkLFoYU-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-41" value="&lt;div&gt;Wait &quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;COMPETITOR_APP_STARTED&lt;/b&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;b&gt;&quot;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ROS2 action으로 사용자 application이 시작 되었다는 메시지 수신 대기&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;" parent="1" vertex="1">
+          <mxGeometry x="360" y="650" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-43" target="pXGescOABc2VgFkLFoYU-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-43" value="START&lt;div&gt;Student Application&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-44" target="pXGescOABc2VgFkLFoYU-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-44" value="ROS2 topic으로 사용자 application이 시작되었음을 알림 &quot;&lt;b&gt;COMPETITOR_APP_STARTED&lt;/b&gt;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-136" target="pXGescOABc2VgFkLFoYU-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-46" target="pXGescOABc2VgFkLFoYU-157" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-46" value="&lt;div&gt;Wait &quot;&lt;b&gt;COMPETITOR_APP_STARTED&lt;/b&gt;&quot; feedback&lt;/div&gt;경진대회 플랫폼으로부터 시작 명령 수신" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-133" target="pXGescOABc2VgFkLFoYU-141" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-48" value="CCTV 정보와 영상 스트리밍 시작" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="750" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-53" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="RLFYRgGI9nvCFsI3ah6u-19" target="pXGescOABc2VgFkLFoYU-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-51" target="pXGescOABc2VgFkLFoYU-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-51" target="pXGescOABc2VgFkLFoYU-154" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-51" value="ROS2 topic으로 사용자 application 시작하라는 명령 전송.(평가 타이머 시작)&lt;div&gt;&quot;&lt;span style=&quot;font-weight: 700;&quot;&gt;START_COMPETITION&lt;/span&gt;&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="990" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-55" value="CCTV 영상 분석하여 목표물들의 위치 정보 계산&lt;div&gt;==&amp;gt; list of target position (targetPositions)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="460" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-57" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-48" target="pXGescOABc2VgFkLFoYU-230" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="830" as="sourcePoint" />
+            <mxPoint x="814" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="420" />
+              <mxPoint x="730" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-60" target="pXGescOABc2VgFkLFoYU-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-60" value="&lt;div&gt;Wait &quot;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ROBOT_CONTROL&quot; or &quot;NAVIGATE_TO_POINT&quot; or &quot;STOP_NAVIGATION&quot;&lt;/span&gt;&lt;/div&gt;로봇 Navigation 명령 수신&lt;div&gt;로봇 navigation 명령은 &quot;goto&quot;와 &quot;미세조정&quot; 2가지 타입이었으면 좋겠음&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1210" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-62" value="&lt;div&gt;Wait &quot;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PICK_REQUEST&quot; or &quot;PLACE_REQUEST&quot;&lt;/span&gt;&lt;/div&gt;로봇 ARM 제어 명령 수신" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1210" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-51" target="pXGescOABc2VgFkLFoYU-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1060" as="sourcePoint" />
+            <mxPoint x="330" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-68" target="pXGescOABc2VgFkLFoYU-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-271" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-71" vertex="1" connectable="0">
+          <mxGeometry x="-0.35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-68" target="pXGescOABc2VgFkLFoYU-268" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-270" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-269" vertex="1" connectable="0">
+          <mxGeometry x="-0.665" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-68" value="계산된 목표물들에 대해 iteration.&lt;div&gt;다음 target이 있나?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="730" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-55" target="Ohq3rs2iLFb9K6wWw7TV-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-70" target="pXGescOABc2VgFkLFoYU-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-70" value="&lt;div&gt;목표물 위치로 이동하도록 ROS2 topic으로 명령 전송&lt;/div&gt;&quot;&lt;span style=&quot;font-weight: 700;&quot;&gt;LOCATE_TO_POINT&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;3E&lt;/span&gt;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="850" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-72" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-257" target="pXGescOABc2VgFkLFoYU-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1320" as="sourcePoint" />
+            <mxPoint x="814" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pXGescOABc2VgFkLFoYU-74" target="pXGescOABc2VgFkLFoYU-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2398.41" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-74" value="로봇으로부터 목표물 위치에 도착했다는 메시지를 수신하면, 또는 로봇의 현재 위치가 목표물에 인접하면" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="950" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-76" target="pXGescOABc2VgFkLFoYU-144" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-76" value="수신한 명령을 실행하여 로봇을 이동시키고" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1370" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-144" target="pXGescOABc2VgFkLFoYU-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-80" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-144" target="pXGescOABc2VgFkLFoYU-256" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="630" as="sourcePoint" />
+            <mxPoint x="446" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-87" target="pXGescOABc2VgFkLFoYU-98" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-87" value="&lt;div&gt;쓰레기를 pick하는 명령 전송&lt;/div&gt;&quot;&lt;span style=&quot;font-weight: 700;&quot;&gt;PICK_REQUEST&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;GraphModel&lt;/span&gt;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1490" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-88" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-250" target="pXGescOABc2VgFkLFoYU-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1213" as="sourcePoint" />
+            <mxPoint x="934" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-272" target="pXGescOABc2VgFkLFoYU-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2400" y="1850" />
+              <mxPoint x="2639" y="1850" />
+              <mxPoint x="2639" y="710" />
+              <mxPoint x="2400" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-97" value="iterate to next target" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-96" vertex="1" connectable="0">
+          <mxGeometry x="-0.2333" relative="1" as="geometry">
+            <mxPoint x="31" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-101" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-96" vertex="1" connectable="0">
+          <mxGeometry x="-0.9765" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pXGescOABc2VgFkLFoYU-98" target="pXGescOABc2VgFkLFoYU-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2559.43" y="1180" as="targetPoint" />
+            <mxPoint x="2498.4085714285716" y="1460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2560" y="1610" />
+              <mxPoint x="2560" y="1510" />
+              <mxPoint x="2559" y="1510" />
+              <mxPoint x="2559" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-117" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-102" vertex="1" connectable="0">
+          <mxGeometry x="-0.9656" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-98" target="pXGescOABc2VgFkLFoYU-272" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-98" value="쓰레기 pick 성공하였나?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1570" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-107" target="pXGescOABc2VgFkLFoYU-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1653.18" y="1020" as="sourcePoint" />
+            <mxPoint x="1763.18" y="1150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2240" y="1110" />
+              <mxPoint x="2240" y="971" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-108" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-104" vertex="1" connectable="0">
+          <mxGeometry x="-0.86" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-103" value="decide to try pick" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="3350" y="720" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-105" value="WAIT for &quot;ROBOT_NAV_RESPONSE&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;" parent="1" vertex="1">
+          <mxGeometry x="3399.9999999999995" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-106" value="Analize ROBOT mounted cammera&lt;div&gt;==&amp;gt; relative poistion of target trash&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="3250" y="800" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-107" target="pXGescOABc2VgFkLFoYU-135" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-111" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pXGescOABc2VgFkLFoYU-110" vertex="1" connectable="0">
+          <mxGeometry x="-0.7192" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-107" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;p style=&quot;line-height: 100%;&quot; class=&quot;p1&quot;&gt;PICK을 시도하는 시점은 사용자가 판단.&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot; class=&quot;p1&quot;&gt;시도해도 된다고 판단되었나?&lt;/p&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;spacing=0;spacingLeft=0;spacingRight=0;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1070" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-109" value="&lt;div&gt;(필요시)로봇 위치를 pick 가능한 위치로 이동하는 명령 전송&lt;/div&gt;&quot;&lt;span style=&quot;font-weight: 700;&quot;&gt;ROBOT_CONTROL_TURN&lt;/span&gt;&quot;, &quot;&lt;span style=&quot;font-weight: 700;&quot;&gt;ROBOT_CONTROL_MOVE&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-119" target="pXGescOABc2VgFkLFoYU-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-119" value="분석을 통해 쓰레기를 pick하기 위한 endpoint와 진입방향 계산. 또는 pick 가능한 위치 계산. 계산된 결과를 로봇 제어 명령 set으로 생성&lt;div&gt;&lt;div&gt;==&amp;gt; list of vehicle command&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1290" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-122" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;entryX=0.768;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pXGescOABc2VgFkLFoYU-121" target="pXGescOABc2VgFkLFoYU-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2669.4300000000003" y="763.2091851022124" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-121" value="trash의 근처에 도착했는지 확인하는 정도" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=light-dark(#d67200, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="2680" y="680" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-123" value="로봇 카메라 영상을 분석해서, pick을 위한 최적 장소를 찾아 이동 명령을 생성" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=light-dark(#d67200, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="2680" y="960" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-124" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" target="pXGescOABc2VgFkLFoYU-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2680" y="1214.9999999999995" as="sourcePoint" />
+            <mxPoint x="2473.43" y="983" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-109" target="pXGescOABc2VgFkLFoYU-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2409.4300000000003" y="1400" as="sourcePoint" />
+            <mxPoint x="2399.4300000000003" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-48" target="pXGescOABc2VgFkLFoYU-133" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="970" as="sourcePoint" />
+            <mxPoint x="480" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-133" value="로봇 카메라 영상 스트리밍 시작" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="830" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-135" target="pXGescOABc2VgFkLFoYU-119" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-135" value="&lt;div&gt;ROS2 topic으로 로봇 카메라 영상과, 로봇 상태(위치, 자세) 정보를 수신하여&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.031249999999998578;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1190" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-46" target="pXGescOABc2VgFkLFoYU-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2399.4300000000003" y="320" as="sourcePoint" />
+            <mxPoint x="2399.4300000000003" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-136" value="&lt;div&gt;ROS2 topic으로 CCTV 영상 수신하여 쓰레기 위치 분석&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-138" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-241" target="pXGescOABc2VgFkLFoYU-135" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="750" as="sourcePoint" />
+            <mxPoint x="1530" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="430" />
+              <mxPoint x="740" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-141" target="pXGescOABc2VgFkLFoYU-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-141" value="로봇 상태정보 publish 시작" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="910" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-144" value="명령 실행 결과를 ROS2 topic으로 반환 &quot;ROBOT_NAV_RESPONSE&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=default;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-146" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RLFYRgGI9nvCFsI3ah6u-13" target="pXGescOABc2VgFkLFoYU-235" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="180" as="sourcePoint" />
+            <mxPoint x="1060" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-148" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-244" target="pXGescOABc2VgFkLFoYU-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="630" as="sourcePoint" />
+            <mxPoint x="1654" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="440" />
+              <mxPoint x="750" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-150" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-141" target="pXGescOABc2VgFkLFoYU-244" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="710" as="sourcePoint" />
+            <mxPoint x="1580" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="450" />
+              <mxPoint x="760" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-161" target="pXGescOABc2VgFkLFoYU-155" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-154" value="제한시간 타이머 시작" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.gauge;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1090" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-155" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-157" target="pXGescOABc2VgFkLFoYU-159" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-157" value="&lt;div&gt;Wait &quot;&lt;b&gt;TIME_CONSTRAINT_EXPIRED&lt;/b&gt;&quot;&lt;/div&gt;&lt;div&gt;ROS2 topic으로 경연시간 종료 메시지 받으면 사용자 application 종료&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;shape=parallelogram;perimeter=parallelogramPerimeter;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2640" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-159" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pXGescOABc2VgFkLFoYU-154" target="pXGescOABc2VgFkLFoYU-161" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1130" as="sourcePoint" />
+            <mxPoint x="480" y="1610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-161" value="publish &quot;&lt;b&gt;TIME_CONSTRAINT_EXPIRED&lt;/b&gt;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=default;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="1730" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-222" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-161" target="WZLyVfn8TElGCyHdftit-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1270" as="sourcePoint" />
+            <mxPoint x="1654" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-224" value="경진대회 플랫폼 서버와 참가자 app 간에 ROS2 interface" style="swimlane;startSize=40;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="80" width="480" height="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-225" value="ROBOT_NAV" style="swimlane;startSize=40;" parent="pXGescOABc2VgFkLFoYU-224" vertex="1">
+          <mxGeometry x="40" y="1120" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-244" value="&lt;div&gt;NAV 상태(위치, 자세, ..)&lt;/div&gt;[out] /metasejong2025/metabot/???" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-225" vertex="1">
+          <mxGeometry x="20" y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-256" value="&lt;div&gt;NAV result(waypoint에 도착 여부)&lt;/div&gt;[out] /metasejong2025/platform/res" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-225" vertex="1">
+          <mxGeometry x="20" y="150" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-257" value="&lt;div&gt;waypoint로 이동 요청&lt;/div&gt;[in] /metasejong2025/platform/req" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=1;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-225" vertex="1">
+          <mxGeometry x="20" y="110" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-262" value="&lt;div&gt;로봇 세부 조정 결과&lt;/div&gt;[out] /metasejong2025/platform/res" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-225" vertex="1">
+          <mxGeometry x="20" y="240" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-263" value="&lt;div&gt;로봇 세부 조정 요청&lt;/div&gt;[in] /metasejong2025/platform/req" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=1;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-225" vertex="1">
+          <mxGeometry x="20" y="200" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-226" value="ROBOT_ARM" style="swimlane;startSize=40;" parent="pXGescOABc2VgFkLFoYU-224" vertex="1">
+          <mxGeometry x="40" y="720" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-250" value="&lt;div&gt;PICK 요청&lt;/div&gt;[in] /metasejong2025/platform/req" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=1;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-226" vertex="1">
+          <mxGeometry x="20" y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-251" value="&lt;div&gt;PICK 결과&lt;/div&gt;[out] /metasejong2025/platform/res" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=0;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pXGescOABc2VgFkLFoYU-226" vertex="1">
+          <mxGeometry x="20" y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-18" value="&lt;div&gt;PLACE 요청&lt;/div&gt;[in] /metasejong2025/platform/req" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=1;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-226" vertex="1">
+          <mxGeometry x="20" y="160" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-19" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PLACE&lt;/span&gt;&amp;nbsp;결과&lt;/div&gt;[out] /metasejong2025/platform/res" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=0;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pXGescOABc2VgFkLFoYU-226" vertex="1">
+          <mxGeometry x="20" y="200" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-227" value="ROBOT_SENSOR" style="swimlane;startSize=40;" parent="pXGescOABc2VgFkLFoYU-224" vertex="1">
+          <mxGeometry x="40" y="560" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-241" value="&lt;div&gt;로봇 카메라 영상(sensor_msgs/msg/Image)&lt;/div&gt;[out] /robot/cam_x/rgb/image_raw" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-227" vertex="1">
+          <mxGeometry x="20" y="50" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-228" value="META_SEJONG_CCTV" style="swimlane;startSize=40;" parent="pXGescOABc2VgFkLFoYU-224" vertex="1">
+          <mxGeometry x="40" y="360" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-229" value="&lt;div&gt;카메라 정보 (sensor_msgs/msg/CameraInfo)&lt;/div&gt;[out] /fixedcam_{x}/camera_info" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-228" vertex="1">
+          <mxGeometry x="20" y="50" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-230" value="&lt;div&gt;카메라 영상 (sensor_msgs/msg/Image)&lt;/div&gt;[out] /fixedcam_{x}/rgb/image_raw" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-228" vertex="1">
+          <mxGeometry x="20" y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-234" value="[TOPIC] /metasejong2025/competitor_request" style="swimlane;startSize=40;" parent="pXGescOABc2VgFkLFoYU-224" vertex="1">
+          <mxGeometry x="40" y="60" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-235" value="&lt;div&gt;참가자 app이 실행됨&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0;dx=10;notch=10;flipH=1;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-234" vertex="1">
+          <mxGeometry x="20" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-238" value="참가자 app 실행됨 요청에 대한 응답" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0.6;dx=40;notch=0;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="pXGescOABc2VgFkLFoYU-234" vertex="1">
+          <mxGeometry x="40" y="90" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WZLyVfn8TElGCyHdftit-3" value="[TOPIC] /metasejong2025/competitor_notification" style="swimlane;startSize=40;" parent="pXGescOABc2VgFkLFoYU-224" vertex="1">
+          <mxGeometry x="40" y="240" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WZLyVfn8TElGCyHdftit-6" value="&lt;div&gt;시나리오에 정의된 time constraint 만료 알림&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=step;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;shadow=0;dashed=0;dy=0.6;dx=40;notch=0;perimeter=stepPerimeter;whiteSpace=wrap;fixedSize=1;" parent="WZLyVfn8TElGCyHdftit-3" vertex="1">
+          <mxGeometry x="20" y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-231" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-230" target="pXGescOABc2VgFkLFoYU-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="520" as="sourcePoint" />
+            <mxPoint x="1470" y="255" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="430" />
+              <mxPoint x="740" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-236" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-235" target="pXGescOABc2VgFkLFoYU-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="230" as="sourcePoint" />
+            <mxPoint x="606" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-239" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-51" target="pXGescOABc2VgFkLFoYU-238" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="265" as="sourcePoint" />
+            <mxPoint x="1854" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-242" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-133" target="pXGescOABc2VgFkLFoYU-241" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="630" as="sourcePoint" />
+            <mxPoint x="1854" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="440" />
+              <mxPoint x="750" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-245" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-244" target="pXGescOABc2VgFkLFoYU-135" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="710" as="sourcePoint" />
+            <mxPoint x="1852" y="975" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="460" />
+              <mxPoint x="770" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-248" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-25" target="pXGescOABc2VgFkLFoYU-157" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="265" as="sourcePoint" />
+            <mxPoint x="1854" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-252" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="RLFYRgGI9nvCFsI3ah6u-25" target="pXGescOABc2VgFkLFoYU-250" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="1230" as="sourcePoint" />
+            <mxPoint x="726" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-258" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-3" target="pXGescOABc2VgFkLFoYU-257" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="1285" as="sourcePoint" />
+            <mxPoint x="1870" y="1450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-260" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-256" target="pXGescOABc2VgFkLFoYU-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1335" as="sourcePoint" />
+            <mxPoint x="1820" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="480" />
+              <mxPoint x="790" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-264" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-13" target="pXGescOABc2VgFkLFoYU-263" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="880" as="sourcePoint" />
+            <mxPoint x="1810" y="1545" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-268" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="750" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-272" value="&lt;div&gt;영상 분석을 통해 분석한 쓰레기 유형에 따라 place하는 명령 전송&lt;/div&gt;&quot;&lt;span style=&quot;font-weight: 700;&quot;&gt;PLACE_REQUEST&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;GraphModel&lt;/span&gt;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1690" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-1" target="pXGescOABc2VgFkLFoYU-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-1" value="&lt;div&gt;&quot;goto&quot;와 &quot;미세조정&quot;이 필요하다고 생각하는 이유는 두 명령을 구분하여&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&quot;goto&quot;는 경도/위도 입력 받아 대략적인 위치로 이동하는 용도로 하고,&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;미세조정&quot;은 centimeter 단위로 상대위치와 heading을 입력 받아 pick 위치 조정하는 용도로 사용하기 위함&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=10;align=left;fontColor=light-dark(#d67200, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="-200" y="1170" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-4" value="&lt;div&gt;김태현의 가정:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;pick&quot;명령은 로봇팔 endpoint의 3D 좌표와 pick을 위한 진입 방향&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;place&quot;명령은 인식한 쓰레기 유형&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=10;align=left;fontColor=light-dark(#d67200, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1290" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="pXGescOABc2VgFkLFoYU-62" target="Bglu7jyl7y2Gr7B01Ody-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="1260" as="sourcePoint" />
+            <mxPoint x="174" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-7" target="Bglu7jyl7y2Gr7B01Ody-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-7" value="수신한 명령을 실행하여 로봇 ARM을 제어하고" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1370" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-9" target="Bglu7jyl7y2Gr7B01Ody-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-9" value="명령 실행 결과를 ROS2 topic으로 반환&amp;nbsp;&lt;div&gt;&quot;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PICK_RESPONST&quot;, &quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PLACE_RESPONSE&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=default;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-10" value="만에하나 &quot;palce&quot; 명령이 실패하는것은 고려하지 않아도 될까?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;fontColor=light-dark(#d67200, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="960" y="1530" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-9" target="Bglu7jyl7y2Gr7B01Ody-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1711.666666666667" as="sourcePoint" />
+            <mxPoint x="700" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-12" value="평가 채점을 위해 로그를 남길 필요가 있는데, 채점 자동화를 위해 로그 유형에 대해 정리하는 중 (미완성)" style="swimlane;whiteSpace=wrap;html=1;startSize=46;" parent="1" vertex="1">
+          <mxGeometry x="120" y="2080" width="1000" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-163" value="PERFORMANCE_LOG" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="440" y="80" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-164" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-163" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-165" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-163" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-166" value="+ action: enum E_LOG_ACTION" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-163" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-167" value="+ action_data: object(stringified)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-163" vertex="1">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-175" value="CActionLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="440" y="280" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-176" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-175" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-177" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-175" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-178" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-175" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-179" value="CPlatformLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="160" y="480" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-180" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-179" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-181" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-179" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-182" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-179" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-183" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="Bglu7jyl7y2Gr7B01Ody-12" source="pXGescOABc2VgFkLFoYU-179" target="pXGescOABc2VgFkLFoYU-175" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-184" value="CROS2MessageLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="640" y="480" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-185" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-184" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-186" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-184" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-187" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-184" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-188" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" parent="Bglu7jyl7y2Gr7B01Ody-12" source="pXGescOABc2VgFkLFoYU-184" target="pXGescOABc2VgFkLFoYU-175" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="461" y="490" as="sourcePoint" />
+            <mxPoint x="519" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-189" value="CROS2OutcomeMessageLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="760" y="680" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-190" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-189" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-191" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-189" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-192" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-189" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-193" value="CROS2IncomeMessageLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="520" y="680" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-194" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-193" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-195" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-193" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-196" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-193" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-197" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" parent="Bglu7jyl7y2Gr7B01Ody-12" source="pXGescOABc2VgFkLFoYU-193" target="pXGescOABc2VgFkLFoYU-184" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="639" y="490" as="sourcePoint" />
+            <mxPoint x="710" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-198" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" parent="Bglu7jyl7y2Gr7B01Ody-12" source="pXGescOABc2VgFkLFoYU-189" target="pXGescOABc2VgFkLFoYU-184" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="616" y="650" as="sourcePoint" />
+            <mxPoint x="644" y="594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-199" value="CSimulationModelLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="40" y="680" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-200" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-199" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-201" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-199" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-202" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-199" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-203" value="CScenarioLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bglu7jyl7y2Gr7B01Ody-12" vertex="1">
+          <mxGeometry x="280" y="680" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-204" value="+ timestamp: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-203" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-205" value="+ user_email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-203" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-206" value="+ action: enum E_ACTION_TYPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pXGescOABc2VgFkLFoYU-203" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-207" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" parent="Bglu7jyl7y2Gr7B01Ody-12" source="pXGescOABc2VgFkLFoYU-199" target="pXGescOABc2VgFkLFoYU-179" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="490" as="sourcePoint" />
+            <mxPoint x="550" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXGescOABc2VgFkLFoYU-208" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" parent="Bglu7jyl7y2Gr7B01Ody-12" source="pXGescOABc2VgFkLFoYU-203" target="pXGescOABc2VgFkLFoYU-179" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="500" as="sourcePoint" />
+            <mxPoint x="560" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-13" value="플랫폼 동작에 필요한 데이터 형식 정의&lt;div&gt;*** 최종 규격은 {project directory}/docs/scenario_description_file.md 파일 참조&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=80;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="120" width="360" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="5PI0h-tqpWdxXAaAaVzH-1" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;scenario:&lt;br&gt;  name: &quot;시나리오 이름&quot;&lt;br&gt;  description: &quot;시나리오 설명&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;  time_constraint: 15,&lt;br&gt;  view_point:&lt;br&gt;    camera_view_eye: [x, y, z]&lt;br&gt;    camera_view_target: [x, y, z]&lt;br&gt;  mission:&lt;br&gt;    {area_name}:&lt;br&gt;      camera_info:&lt;br&gt;        focal_length: [fx, fy]&lt;br&gt;        position: [x, y, z]&lt;br&gt;        rotation: [rx, ry, rz]&lt;br&gt;      mission_area:&lt;br&gt;        translation: [x, y, z]&lt;br&gt;        orientation: [rx, ry, rz]&lt;br&gt;        scale: [sx, sy, sz]&lt;br&gt;      mission_objects:&lt;br&gt;        object_name: count&lt;br&gt;  robot:&lt;br&gt;    start_point: [x, y, z]&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="Bglu7jyl7y2Gr7B01Ody-13" vertex="1">
+          <mxGeometry x="20" y="100" width="320" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-14" value="topic namespace로 CCTV 개체 구분 필요" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=light-dark(#d67200, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1560" y="-30" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Bglu7jyl7y2Gr7B01Ody-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-14" target="pXGescOABc2VgFkLFoYU-228" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2440" y="-100" as="sourcePoint" />
+            <mxPoint x="2240" y="-25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-1" value="1. Application 시작할 때 서버에 팀 정보 전달하도록 수정&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="630" y="40" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-2" value="metasejong platform 요청/응답 메시지" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="805" y="-700" width="590" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-4" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;stringify된 JSON 문자열을 msg_std/String 타입으로 전달&lt;/span&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;요청/통지 메시지 포멧&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;{&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  msg: &quot;메시지 유형&quot;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  session: &quot;세션문자열&quot;, // READY_TO_START 요청의 결과로 받은 session 문자열&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  payload: { ... }&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;응답 메시지 포멧&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;{&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  msg: &quot;메시지 유형&quot;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  result: {&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    status: &#39;success&#39; | &#39;error&#39;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    data: {...}&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  }&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;에러 메시지 포멧&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;{&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  msg: &quot;메시지 유형&quot;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  result: {&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    status: &#39;success&#39; | &#39;error&#39;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    data: {...}&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  }&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;요청 메시지 action : /metasejong2025/competitor_request_action&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; face=&quot;Droid Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;통지 메시지 topic : &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace, monospace;&quot;&gt;/metasejong2025/competitor_notification_topic&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="RLFYRgGI9nvCFsI3ah6u-2" vertex="1">
+          <mxGeometry x="10" y="50" width="570" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-10" value="COMPETITOR_APP_STARTED request" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1900" y="-200" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-11" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;team: &quot;sejonguniv&quot;,&amp;nbsp; // 참가팀 이름, 참가 신청 시 받아야 하는 값&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;token: &quot;asdkfjasdlfkjasldkf&quot;, // 참가 신청 시 이메일로 발급&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;level: &quot;level3&quot;, // 지원 레벨, level 1~3중 어느 level까지 구현했는지?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="RLFYRgGI9nvCFsI3ah6u-10" vertex="1">
+          <mxGeometry x="10" y="50" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-24" value="token은 team 이름으로부터 자동 생성하도록 하면,&amp;nbsp;&lt;div&gt;platform 단에서 별도 DB 관리하지 안아도 됨&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="RLFYRgGI9nvCFsI3ah6u-10" vertex="1">
+          <mxGeometry x="10" y="160" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="RLFYRgGI9nvCFsI3ah6u-10" target="RLFYRgGI9nvCFsI3ah6u-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1751" y="-10" as="sourcePoint" />
+            <mxPoint x="2100" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-15" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-44" target="RLFYRgGI9nvCFsI3ah6u-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="220" as="sourcePoint" />
+            <mxPoint x="1760" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-13" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="210" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-17" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-48" target="pXGescOABc2VgFkLFoYU-229" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="1570" y="475" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="430" />
+              <mxPoint x="740" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-18" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-229" target="pXGescOABc2VgFkLFoYU-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="475" as="sourcePoint" />
+            <mxPoint x="2294" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="440" />
+              <mxPoint x="750" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-20" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-238" target="RLFYRgGI9nvCFsI3ah6u-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="255" as="sourcePoint" />
+            <mxPoint x="2284" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-19" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="270" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-21" value="COMPETITOR_APP_STARTED response" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2350" y="-160" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-22" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;result: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;session: &quot;xkdkajsdfhlaskdjfllasdf&quot;,&amp;nbsp; // 일종의 login에 대한 세션 토큰&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="RLFYRgGI9nvCFsI3ah6u-21" vertex="1">
+          <mxGeometry x="10" y="50" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="RLFYRgGI9nvCFsI3ah6u-21" target="RLFYRgGI9nvCFsI3ah6u-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="60" as="sourcePoint" />
+            <mxPoint x="2020" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-26" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-87" target="RLFYRgGI9nvCFsI3ah6u-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="1320" as="sourcePoint" />
+            <mxPoint x="1760" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-25" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="935" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-27" value="msg: PICK_REQUEST&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;GraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22metasejong%20platform%20%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%22%20style%3D%22swimlane%3BstartSize%3D40%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221080%22%20y%3D%22-240%22%20width%3D%22360%22%20height%3D%22320%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Bline-height%3A%2019px%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20center%3B%20text-wrap-mode%3A%20nowrap%3B%26quot%3B%26gt%3Bstringify%EB%90%9C%20JSON%20%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20msg_std%2FString%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EB%8B%AC%26lt%3B%2Fspan%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%8F%AC%EB%A9%A7%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20msg%3A%20%26quot%3B%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9C%A0%ED%98%95%26quot%3B%2C%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20payload%3A%20%7B%20...%20%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Freq%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Fres%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4%20Notification%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%3A%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20%2Fmetasejong2025%2Fplatform%2Fnot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2250%22%20width%3D%22340%22%20height%3D%22260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%PICK&amp;nbsp;&lt;/span&gt;" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="520" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-28" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;endpoint: [x, y, z],&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;angle: deg&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="RLFYRgGI9nvCFsI3ah6u-27" vertex="1">
+          <mxGeometry x="10" y="50" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFYRgGI9nvCFsI3ah6u-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RLFYRgGI9nvCFsI3ah6u-27" target="RLFYRgGI9nvCFsI3ah6u-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2429" as="sourcePoint" />
+            <mxPoint x="2009" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-4" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-70" target="s1SZlE7ngIOJaDUw1tw9-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="690" as="sourcePoint" />
+            <mxPoint x="1760" y="1325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="470" />
+              <mxPoint x="780" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-3" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="1320" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-5" value="msg: NAVIGATE_TO_POINT&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22metasejong%20platform%20%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%22%20style%3D%22swimlane%3BstartSize%3D40%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221080%22%20y%3D%22-240%22%20width%3D%22360%22%20height%3D%22320%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Bline-height%3A%2019px%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20center%3B%20text-wrap-mode%3A%20nowrap%3B%26quot%3B%26gt%3Bstringify%EB%90%9C%20JSON%20%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20msg_std%2FString%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EB%8B%AC%26lt%3B%2Fspan%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%8F%AC%EB%A9%A7%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20msg%3A%20%26quot%3B%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9C%A0%ED%98%95%26quot%3B%2C%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20payload%3A%20%7B%20...%20%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Freq%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Fres%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4%20Notification%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%3A%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20%2Fmetasejong2025%2Fplatform%2Fnot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2250%22%20width%3D%22340%22%20height%3D%22260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%PICK&amp;nbsp;&lt;/span&gt;" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="1440" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-6" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;point: [x, y, z]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-5" vertex="1">
+          <mxGeometry x="10" y="50" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-5" target="s1SZlE7ngIOJaDUw1tw9-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1983" y="750" as="sourcePoint" />
+            <mxPoint x="1880" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-8" value="msg: ROBOT_CONTROL_TURN&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22metasejong%20platform%20%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%22%20style%3D%22swimlane%3BstartSize%3D40%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221080%22%20y%3D%22-240%22%20width%3D%22360%22%20height%3D%22320%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Bline-height%3A%2019px%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20center%3B%20text-wrap-mode%3A%20nowrap%3B%26quot%3B%26gt%3Bstringify%EB%90%9C%20JSON%20%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20msg_std%2FString%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EB%8B%AC%26lt%3B%2Fspan%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%8F%AC%EB%A9%A7%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20msg%3A%20%26quot%3B%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9C%A0%ED%98%95%26quot%3B%2C%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20payload%3A%20%7B%20...%20%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Freq%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Fres%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4%20Notification%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%3A%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20%2Fmetasejong2025%2Fplatform%2Fnot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2250%22%20width%3D%22340%22%20height%3D%22260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%PICK&amp;nbsp;&lt;/span&gt;" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2140" y="1910" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-9" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;angle: 10&amp;nbsp; // degree -180 ~ 180&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-8" vertex="1">
+          <mxGeometry x="10" y="50" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-8" target="s1SZlE7ngIOJaDUw1tw9-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2223" y="890" as="sourcePoint" />
+            <mxPoint x="2090" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-11" value="msg: ROBOT_CONTROL_MOVE&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22metasejong%20platform%20%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%22%20style%3D%22swimlane%3BstartSize%3D40%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221080%22%20y%3D%22-240%22%20width%3D%22360%22%20height%3D%22320%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Bline-height%3A%2019px%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20center%3B%20text-wrap-mode%3A%20nowrap%3B%26quot%3B%26gt%3Bstringify%EB%90%9C%20JSON%20%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20msg_std%2FString%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EB%8B%AC%26lt%3B%2Fspan%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%8F%AC%EB%A9%A7%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20msg%3A%20%26quot%3B%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9C%A0%ED%98%95%26quot%3B%2C%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20payload%3A%20%7B%20...%20%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Freq%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Fres%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4%20Notification%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%3A%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20%2Fmetasejong2025%2Fplatform%2Fnot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2250%22%20width%3D%22340%22%20height%3D%22260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%PICK&amp;nbsp;&lt;/span&gt;" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="2075" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-12" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;distance: 10 // centimeter, -100~100&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-11" vertex="1">
+          <mxGeometry x="10" y="50" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-14" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pXGescOABc2VgFkLFoYU-109" target="s1SZlE7ngIOJaDUw1tw9-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="1230" as="sourcePoint" />
+            <mxPoint x="1760" y="1415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="690" />
+              <mxPoint x="910" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-13" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="1290" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-11" target="s1SZlE7ngIOJaDUw1tw9-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2189" y="1590" as="sourcePoint" />
+            <mxPoint x="2090" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-17" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pXGescOABc2VgFkLFoYU-272" target="s1SZlE7ngIOJaDUw1tw9-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="1330" as="sourcePoint" />
+            <mxPoint x="1890" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-20" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-21" target="s1SZlE7ngIOJaDUw1tw9-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="1240" as="sourcePoint" />
+            <mxPoint x="1770" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-21" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="1100" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-22" value="msg: PLACE_REQUEST&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;GraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22metasejong%20platform%20%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%22%20style%3D%22swimlane%3BstartSize%3D40%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221080%22%20y%3D%22-240%22%20width%3D%22360%22%20height%3D%22320%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Bline-height%3A%2019px%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20center%3B%20text-wrap-mode%3A%20nowrap%3B%26quot%3B%26gt%3Bstringify%EB%90%9C%20JSON%20%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20msg_std%2FString%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EB%8B%AC%26lt%3B%2Fspan%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%2F%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%8F%AC%EB%A9%A7%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20msg%3A%20%26quot%3B%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9C%A0%ED%98%95%26quot%3B%2C%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20payload%3A%20%7B%20...%20%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%7D%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Freq%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%EC%9D%91%EB%8B%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%20%3A%20%2Fmetasejong2025%2Fplatform%2Fres%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4%20Notification%20%EB%A9%94%EC%8B%9C%EC%A7%80%20topic%3A%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bfont%20face%3D%26quot%3BDroid%20Sans%20Mono%2C%20monospace%2C%20monospace%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bwhite-space%3A%20pre%3B%26quot%3B%26gt%3B%20%20%2Fmetasejong2025%2Fplatform%2Fnot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2250%22%20width%3D%22340%22%20height%3D%22260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%PICK&amp;nbsp;&lt;/span&gt;" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2005" y="810" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-23" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;endpoint: [x, y, z],&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;angle: deg&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-22" vertex="1">
+          <mxGeometry x="10" y="50" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-22" target="s1SZlE7ngIOJaDUw1tw9-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1985" y="700" as="sourcePoint" />
+            <mxPoint x="1870" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-26" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="WZLyVfn8TElGCyHdftit-6" target="s1SZlE7ngIOJaDUw1tw9-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="295" as="sourcePoint" />
+            <mxPoint x="2644" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-25" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2000" y="310" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-27" value="msg: TIME_CONSTRAINT_EXPIRED" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2700" y="30" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-28" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;session: &quot;xkdkajsdfhlaskdjfllasdf&quot;,&amp;nbsp; // 일종의 login에 대한 세션 토큰&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;result: &quot;SUCCESS or 오류 메시지&quot;, // token이 잘못된 경우 오류&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-27" vertex="1">
+          <mxGeometry x="10" y="50" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-25" target="s1SZlE7ngIOJaDUw1tw9-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2429" as="sourcePoint" />
+            <mxPoint x="2009" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-30" value="msg: STOP_NAVIGATION" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="2020" width="240" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-31" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-30" vertex="1">
+          <mxGeometry x="10" y="50" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-34" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;LOCATE_TO_POINT 명령에 의한 NAVIGATION이&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;끝나기 전에&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;사용자가 목적지 인접 여부를 분석해서&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ROBOT_CONTROL_XXX로&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;전환하고자 할 경우&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LOCATE_TO_POINT 수행을&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;중지하도록 요청하기&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;위해 사용할 수 있음&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="s1SZlE7ngIOJaDUw1tw9-30" vertex="1">
+          <mxGeometry x="10" y="114" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="s1SZlE7ngIOJaDUw1tw9-30" target="s1SZlE7ngIOJaDUw1tw9-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1949" y="1450" as="sourcePoint" />
+            <mxPoint x="1897" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-35" value="msg: ROBOT_CONTROL" style="swimlane;startSize=40;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2185" y="2075" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-36" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;session: &quot;xk...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;relative_pos: [x, y, z],&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;rotate: r // angle&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="s1SZlE7ngIOJaDUw1tw9-35" vertex="1">
+          <mxGeometry x="10" y="50" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-37" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-9" target="s1SZlE7ngIOJaDUw1tw9-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="885" as="sourcePoint" />
+            <mxPoint x="926" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1SZlE7ngIOJaDUw1tw9-38" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="Bglu7jyl7y2Gr7B01Ody-9" target="pXGescOABc2VgFkLFoYU-251" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1260" as="sourcePoint" />
+            <mxPoint x="936" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WZLyVfn8TElGCyHdftit-1" value="#2. world 초기화, extension 설정, ROS2 초기화 등&#xa;(Meta-Sejong USD 로딩 포함)" style="shape=card;strokeWidth=2;rounded=1;arcSize=12;size=20;verticalLabelPosition=middle;verticalAlign=middle;align=center;whiteSpace=wrap;fontColor=default;labelPosition=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJrxg2g5oxkN1u__zbid-1" value="&lt;div&gt;2025. 04. 03 시점.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;ROS2 Action으로 개발하는데 복잡도가 많이 높아져서 Topic으로 변경 중.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Document update는 Topic으로 구현하면서 진행하는 중. 최종 버전이 아님을 유의!!!&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#f8cecc;strokeColor=#b85450;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="-10" width="340" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-1" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ohq3rs2iLFb9K6wWw7TV-3" target="pXGescOABc2VgFkLFoYU-235">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="360" as="sourcePoint" />
+            <mxPoint x="1760" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-2" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;curved=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ohq3rs2iLFb9K6wWw7TV-3" source="Ohq3rs2iLFb9K6wWw7TV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2300" y="400" as="sourcePoint" />
+            <mxPoint x="1780" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-3" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="390" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-4" value="REPORT_LEVEL1_COMPLETED request" style="swimlane;startSize=40;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="-270" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-5" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;payload: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;answer: list of {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;class: &quot;can&quot;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;position: [x,y,z]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="Ohq3rs2iLFb9K6wWw7TV-4">
+          <mxGeometry x="10" y="50" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ohq3rs2iLFb9K6wWw7TV-4" target="Ohq3rs2iLFb9K6wWw7TV-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2064" y="40" as="sourcePoint" />
+            <mxPoint x="2007" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ohq3rs2iLFb9K6wWw7TV-8" target="Ohq3rs2iLFb9K6wWw7TV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-8" value="ROS2 topic으로 level 1 완료 보고 &quot;&lt;b&gt;REPORT_LEVEL1_COMPLETED&lt;/b&gt;&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="545" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ohq3rs2iLFb9K6wWw7TV-9" target="pXGescOABc2VgFkLFoYU-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-13" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ohq3rs2iLFb9K6wWw7TV-12">
+          <mxGeometry x="-0.5955" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-9" value="level1까지만 수행하는 참가자인가?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="610" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ohq3rs2iLFb9K6wWw7TV-9" target="pXGescOABc2VgFkLFoYU-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2410" y="520" as="sourcePoint" />
+            <mxPoint x="2410" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohq3rs2iLFb9K6wWw7TV-14" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ohq3rs2iLFb9K6wWw7TV-11">
+          <mxGeometry x="-0.4917" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zuNZ8GdPBHraZHpGny5k" name="페이지-2">
+    <mxGraphModel dx="869" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

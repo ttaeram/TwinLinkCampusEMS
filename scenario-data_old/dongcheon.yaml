@@ -1,0 +1,39 @@
+scenario:
+  name: Dongcheon
+  description: 동천관 시나리오
+  time_constraint: 10
+playground:
+  usd_file: playground/S3/SejongUniv_S3.usd
+  view_point:
+    camera_view_eye: [-34.49608, 25.24217, 40.0]
+    camera_view_target: [-43.07861, 0.26965, 15.93874]
+mission:
+  dongcheon_1:
+    camera_info:
+      focal_length: 4
+      horizontal_aperture: 4.8
+      position: [-55.64634, -9.32143, 21.47511]
+      rotation: [72.326, -16.222, -14.042]
+      ground_height: 16.0
+    mission_objects:
+      master_chef_can: 3
+      wood_block: 3
+      tissue: 3
+      cola_can: 3
+      juice: 3
+      cracker_box: 3
+  dongcheon_2:
+    camera_info:
+      focal_length: 4
+      horizontal_aperture: 4.8
+      ground_height: 15.8
+      position: [-55.54975, 21.41175, 19.37973]
+      rotation: [-67.918, -61.773, -164.059]
+    mission_objects:
+      master_chef_can: 3
+      wood_block: 3
+      cola_can: 3
+      juice: 3   
+robot:
+  start_point: [-27.03296, 1.96353, 16.0]
+draw_mission_debug_lines: false

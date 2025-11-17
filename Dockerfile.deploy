@@ -1,0 +1,32 @@
+# Copyright (c) 2025, IoT Convergence & Open Sharing System (IoTCOSS)
+#
+# All rights reserved. This software and its documentation are proprietary and confidential.
+# The IoT Convergence & Open Sharing System (IoTCOSS) retains all intellectual property rights,
+# including but not limited to copyrights, patents, and trade secrets, in and to this software
+# and related documentation. Any use, reproduction, disclosure, or distribution of this software
+# and related documentation without explicit written permission from IoTCOSS is strictly prohibited.
+#
+ARG DEBIAN_FRONTEND=noninteractive
+
+FROM metasejong-base:ros2-isaacsim
+
+
+COPY simulation_app /metacom2025/simulation_app
+
+
+# 아래 두가지 중 하나만 선택 
+
+# playground 모델 복사
+COPY resources/models/playground /metacom2025/resources/models/playground
+
+# 로봇 모델 복사
+COPY resources/models/robot /metacom2025/resources/models/robot
+
+COPY resources/assets /metacom2025/resources/assets
+COPY resources/extensions/omni.metacom.pickandplace.extension /root/Documents/Kit/shared/exts/aisl.omnigraph.extension
+
+WORKDIR /metacom2025/simulation_app
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+ENTRYPOINT ["/isaac-sim/python.sh", "/metacom2025/simulation_app/codes/run_simulation_app.py"]
