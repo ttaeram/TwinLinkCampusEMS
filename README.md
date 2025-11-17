@@ -1,4 +1,4 @@
-# Guide for MetaSejong AI Robotics Competition 2025
+# Guide for oneM2M International Hackathon  2025
 
 # Release History 
 
