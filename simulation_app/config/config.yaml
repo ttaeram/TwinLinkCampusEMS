@@ -1,0 +1,65 @@
+fixed_camera:
+  default_focal_length: 30.0
+  default_horizontal_aperture: 40.0
+  default_ground_height: 1.0
+  default_camera_resolution: [1280, 720]
+
+mission_object_types:
+  - master_chef_can
+  - cracker_box
+  - mug
+  - wood_block
+  - cola_can
+  - disposable_cup
+  - juice
+  - tissue
+
+mission_object_assets:
+  master_chef_can:
+    type: ycb
+    usd_file: 002_master_chef_can.usd
+    scale: [0.4, 0.4, 0.4]
+    recyclable: true
+  cracker_box:
+    type: ycb
+    usd_file: 003_cracker_box.usd
+    scale: [0.7, 0.7, 0.7]
+    recyclable: true
+  mug:
+    type: ycb
+    usd_file: 025_mug.usd
+    scale: [1.0, 1.0, 1.0]
+    recyclable: false
+  wood_block:
+    type: ycb
+    usd_file: 036_wood_block.usd
+    scale: [0.4, 0.4, 0.4]
+    recyclable: false
+  cola_can:
+    type: custom
+    usd_file: cola.usd
+    scale: [0.0035, 0.0035, 0.0035]
+    recyclable: true
+  disposable_cup:
+    type: custom
+    usd_file: disposable_cup.usd
+    scale: [0.003, 0.003, 0.003]
+    recyclable: true
+  juice:
+    type: custom
+    usd_file: juice.usd
+    scale: [0.0035, 0.0035, 0.0035]
+    recyclable: true
+  tissue:
+    type: custom
+    usd_file: tissue.usd
+    scale: [0.004, 0.004, 0.004]
+    recyclable: true
+robot_asset:
+    type: custom
+    usd_file: assembled_robots/metacom.usd
+    scale: [0.4, 0.4, 0.4]
+cctv_asset:
+    type: custom
+    usd_file: SM_CCTV_1.usd
+    scale: [0.003, 0.003, 0.003]

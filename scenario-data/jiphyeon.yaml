@@ -1,0 +1,39 @@
+scenario:
+  name: Jiphyeon
+  description: 집현관 시나리오
+  time_constraint: 15
+playground:
+  usd_file: playground/S4/SejongUniv_S4.usd
+  view_point:
+    camera_view_eye: [6.78023, -225.27218, 30.0287378]
+    camera_view_target: [16.00401, -219.77422, 21.10599]
+mission:
+  jiphyeon_1:
+    camera_info:
+      focal_length: 4
+      horizontal_aperture: 4.8
+      position: [42.24149, -236.6242, 32.3144]
+      rotation: [51.617, 29.087, -6.284]
+      ground_height: 21.4
+    mission_objects:
+      master_chef_can: 2
+      wood_block: 2
+      tissue: 2
+      cola_can: 2
+      juice: 2
+      cracker_box: 2
+  jiphyeon_2:
+    camera_info:
+      focal_length: 4
+      horizontal_aperture: 4.8
+      ground_height: 21.4
+      position: [11.85726, -235.90986, 32.32018]
+      rotation: [53.78, -11.493, -1.764]
+    mission_objects:
+      master_chef_can: 2
+      wood_block: 2
+      cola_can: 2
+      juice: 2
+robot:
+  start_point: [14.82523, -212.94208, 21.0]
+draw_mission_debug_lines: false

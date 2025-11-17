@@ -1,0 +1,45 @@
+# Copyright (c) 2025, IoT Convergence & Open Sharing System (IoTCOSS)
+#
+# All rights reserved. This software and its documentation are proprietary and confidential.
+# The IoT Convergence & Open Sharing System (IoTCOSS) retains all intellectual property rights,
+# including but not limited to copyrights, patents, and trade secrets, in and to this software
+# and related documentation. Any use, reproduction, disclosure, or distribution of this software
+# and related documentation without explicit written permission from IoTCOSS is strictly prohibited.
+#
+ARG DEBIAN_FRONTEND=noninteractive
+ARG ISAACSIM_VERSION=4.2.0
+
+# NVIDIA Isaac Sim 기반 이미지 사용
+# https://catalog.ngc.nvidia.com/orgs/nvidia/containers/isaac-sim
+FROM nvcr.io/nvidia/isaac-sim:${ISAACSIM_VERSION}
+
+ENV DEBIAN_FRONTEND=${DEBIAN_FRONTEND}
+ENV TZ=Asia/Seoul
+
+# 필수 의존 패키지 설치
+RUN apt-get update && apt-get install -y \
+    curl gnupg2 lsb-release python3-pip python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# pip 최신화
+RUN python3 -m pip install --upgrade pip
+
+# locale 설정과 ROS 설치를 하나의 RUN 명령어로 통합
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    locales \
+    software-properties-common && \
+    locale-gen en_US en_US.UTF-8 && \
+    update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 && \
+    add-apt-repository universe && \
+    curl --connect-timeout 10 --max-time 60 -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /tmp/ros.key && \
+    apt-key add /tmp/ros.key && \
+    echo "deb http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2.list && \
+    apt-get update && \
+    apt-get install -y ros-humble-ros-base && \
+    rm -rf /var/lib/apt/lists/*
+
+ENV LANG=en_US.UTF-8
+
+# 작업 디렉터리 설정
+WORKDIR /isaac-sim
