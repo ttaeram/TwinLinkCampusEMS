@@ -79,17 +79,23 @@ In short, while we use a stable legacy version of Mobius today, the resource tre
 
 ### 3-2. Containers
 
-(Figures are placeholders for screenshots.)
+- **Fig.01.** CampusEMS AE and its CNTs
+![fig01](./assets/fig01_CampusEMS_AE_and_its_cnts.png)
 
-- **Fig.01.** CampusEMS AE and its CNTs – `Screenshot 2025-11-17 at 04.20.04.png`  
-- **Fig.02.** `ControlCenter` CNT – `Screenshot 2025-11-17 at 05.18.44.png`  
-- **Fig.03.** `CCTV` CNT – `Screenshot 2025-11-17 at 05.19.31.png`  
-- **Fig.04.** `Robots` CNT – `Screenshot 2025-11-17 at 05.19.58.png`  
-- **Fig.05.** `ModelRepo` CNT – `Screenshot 2025-11-17 at 05.22.01.png`  
-- **Fig.06.** `DatasetRepo` CNT – `Screenshot 2025-11-17 at 05.21.41.png`  
+- **Fig.02.** `ControlCenter` CNT
+![fig02](./assets/fig02_ControlCenter_cnt.png)
 
-(Example image syntax:  
-`![Fig.01 – CampusEMS AE and its CNTs](Screenshot-2025-11-17-04-20-04.png)`)
+- **Fig.03.** `CCTV` CNT
+![fig03](./assets/fig03_CCTV_cnt.png)
+
+- **Fig.04.** `Robots` CNT
+![fig04](./assets/fig04_Robots_cnt.png)
+
+- **Fig.05.** `ModelRepo` CNT
+![fig04](./assets/fig05_ModelRepo_cnt.png)
+
+- **Fig.06.** `DatasetRepo` CNT
+![fig06](./assets/fig06_DataRepo_cnt.png)
 
 ---
 
@@ -111,7 +117,7 @@ Through this setup:
 
 ### 4-2. Chungmu Hall Area
 
-`S1_v2.png`  
+![fig07](./assets/fig07_MetaSejong_ChungmuHall.png)
 **Fig.07. Meta-Sejong Chungmu Hall**
 
 The Chungmu Hall area is modeled as a region with a park and two buildings. We use this area to demonstrate synchronized mission execution between the simulator and real robots, including:
@@ -126,7 +132,7 @@ This area is the most intuitive region to showcase how the robot’s movement an
 
 ### 4-3. Yongdeok Hall Area
 
-`Screenshot from 2025-11-17 15-25-50.png`  
+![fig08](./assets/fig08_MetaSejong_YongdukHall.png)
 **Fig.08. Meta-Sejong Yongdeok Hall**
 
 The area in front of Yongdeok Hall is modeled as a **parking lot environment**. It reflects a cluttered, realistic scene with many parked vehicles acting as obstacles. Here we focus on obstacle avoidance synchronization between the simulator and the real robot:
@@ -144,7 +150,7 @@ This region is used to verify that **behavioral consistency** and **obstacle avo
 
 ### 5-1. Campus-wide Resource Hub
 
-`Screenshot 2025-11-17 at 06.12.52.png`  
+![fig09](./assets/fig09_Several_raw_data_items.png) 
 **Fig.09. Several raw data items**
 
 CampusEMS is represented as a single logical tree in Mobius.
@@ -165,7 +171,7 @@ All other features in the system are built on top of this **integrated resource 
 
 ### 5-2. Voice-driven Robot Dispatch Pipeline
 
-`Screenshot 2025-11-17 at 06.14.07.png`  
+![fig10](./assets/fig10_Voice_to_navigation.png)
 **Fig.10. Voice to Navigation**
 
 A single spoken sentence from the manager is transformed into a robot navigation command, and every step of this pipeline is handled through Mobius resources.
@@ -190,7 +196,7 @@ This container acts as the repository for **raw voice data**.
 
 #### 5-2-3. Creating robot navigation commands
 
-`Screenshot 2025-11-17 at 14.17.50.png`  
+![fig11](./assets/fig11_STT_to_navigation_command.png)
 **Fig.11. STT to navigation command**
 
 The final structured command is written as a `cin` into the target robot’s navigation container:
@@ -245,7 +251,7 @@ In other words:
 
 ### 5-5. Relationship and Intent toward Mobius4
 
-`Screenshot 2025-11-17 at 06.16.09.png`  
+![Mobius4 utils](./assets/fig12_Mobius4_Utils.png)
 **Fig.12. Mobius4 Utils**
 
 Although the current system runs on a pre-Mobius4 version of Mobius, our resource structure intentionally reflects the Mobius4 concept of separating **models** and **data**.
@@ -278,7 +284,7 @@ In short, while we did not deploy Mobius4 itself for this project, the presence 
 ## 6. Demo Video
 
 **Twin Link CampusEMS**  
-*(Insert demo video link or embed here.)*
+[![Twin Link CampusEMS](./assets/Thumbnail_origin.png)](https://www.youtube.com/watch?v=Nv4v2NaGeZM&t=199s)
 
 ---
 
